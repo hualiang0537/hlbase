@@ -1,0 +1,20 @@
+#MyEclipse Hibernate Properties
+#Wed Mar 12 15:13:00 CST 2014
+genBasicCompId=true
+sessionFactoryName=com.weizhi.newsmartapp.dao.HibernateSessionFactory
+profile=
+daoSFId=
+jndiPath=
+detectM2M=true
+reStrategyClass=
+detectO2O=false
+springDaoFile=
+useJavaTypes=true
+keyGenerator=identity
+genVersionTag=false
+sessionFactoryId=
+basePersistenceClass=
+genAnnotations=true
+reSettingsFile=
+configFile=/newsmartapp/src/main/java/hibernate.cfg.xml
+createConfigFile=true

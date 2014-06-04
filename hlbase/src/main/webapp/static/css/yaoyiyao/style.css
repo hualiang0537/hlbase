@@ -1,0 +1,53 @@
+@CHARSET "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #f0f0f0
+}
+
+.main .card {
+	width: 80px;
+	height: 33px;
+	border-radius: 3px;
+	background-color: #d75b59;
+	text-decoration: none;
+	display: inline-block;
+	color: #fff;
+	line-height: 33px;
+	text-align: center;
+	float: right;
+	margin: 10px 10px 0px 0px;
+}
+
+.main .hand {
+	width: 80%;
+	clear: both;
+	margin: 0px auto;
+	padding-top: 20px;
+}
+
+.main .hand img {
+	width: 100%
+}
+
+.main .title {
+	font-family: 黑体;
+	width: 100%;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	color: #4b4b4b;
+}
+
+.main .wenzi {
+	width: 100%;
+	margin-top: 7px;
+	text-align: center;
+	font-size: 12px;
+	color: #9a9a9a;
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="cmap"
+  id="myeclipse.1356432614761"
+  context-root="/ROOT"
+  j2ee-spec="6.0"
+  archive="cmap.war">
+  <attributes>
+    <attribute name="webrootdir" value="src/main/webapp" />
+  </attributes>
+</project-module>
+

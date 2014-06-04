@@ -1,0 +1,686 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "宋体";
+}
+
+body {
+	background: #f5f5f5;
+}
+
+ul,li {
+	list-style: none;
+}
+
+img,object {
+	max-width: 100%;
+}
+
+.L {
+	float: left;
+}
+
+.R {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.c {
+	text-align: center;
+}
+
+#main {
+	padding: 16px;
+	overflow: hidden;
+}
+
+#content {
+	height: 100%;
+	overflow: auto;
+	background-color: #000;
+	position: absolute;
+	width: 100%;
+	filter: alpha(opacity = 75); /* IE */
+	-moz-opacity: 0.7;
+	opacity: 0.7; /* Moz + FF */
+}
+
+.sendterm {
+	
+}
+
+.sendterm dl {
+	margin: 0 0 20px;
+	padding: 10px;
+	position: relative;
+	overflow: hidden;
+	border: 2px solid #d2d2d2;
+	border-radius: 6px;
+	background-color: #fff;
+	box-shadow: 0px 2px 0px #fff;
+}
+
+.sendterm dt {
+	float: left;
+}
+
+.sendterm dt img {
+	width: 72px;
+	height: 72px;
+}
+
+.sendterm dd {
+	color: #646464;
+	font-size: 1em;
+	padding: 0 10px;
+	overflow: hidden;
+}
+
+.sendterm dd.name {
+	font-size: 1.4em;
+	line-height: 1.2em;
+}
+
+.box a {
+	color: #003ff3;
+	line-height: 1.5em;
+	border-bottom: 1px solid #003ff3;
+}
+
+.box dl {
+	margin: 12px 0;
+	font-size: 1.0em;
+	line-height: 1.4em;
+	padding: 12px 0;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 0px 1px 0px #ccc;
+}
+
+.box dt {
+	
+}
+
+.box dd {
+	text-indent: 36px;
+}
+
+.sendterm2 dl {
+	margin: 10px 0;
+	padding: 16px;
+	position: relative;
+	overflow: hidden;
+	border: 2px solid #d2d2d2;
+	border-radius: 6px;
+	background-color: #fff;
+	box-shadow: 0px 2px 0px #fff;
+}
+
+.anniu_green dl {
+	text-align: center;
+	margin: 16px 0;
+	padding: 10px 0;
+	position: relative;
+	overflow: hidden;
+	border: 2px solid #00692d;
+	border-radius: 6px;
+	background-color: #fff;
+	box-shadow: 0px 2px 0px #fff;
+	background: url(../img/anniu_green_bj.png) repeat-x #fff;
+}
+
+.anniu_grey dl {
+	text-align: center;
+	margin: 16px 0;
+	padding: 10px 0;
+	position: relative;
+	overflow: hidden;
+	border: 2px solid #000;
+	border-radius: 6px;
+	background-color: #fff;
+	box-shadow: 0px 2px 0px #fff;
+	background: url(../img/anniu_grey_bj.png) repeat-x #fff;
+}
+
+.activity {
+	padding: 10px;
+	position: relative;
+	overflow: hidden;
+	background: #e6e6e6;
+}
+
+.activity dd {
+	font-size: 1.0em;
+	line-height: 1.2em;
+	color: #282828;
+}
+
+.activity_tittle {
+	font-size: 1.0em;
+	line-height: 1.2em;
+	color: #c8c8c8;
+}
+
+.sendterm p {
+	font-size: 1.0em;
+	line-height: 1.4em;
+	color: #000;
+}
+
+.activity_text {
+	
+}
+
+.activity2 {
+	padding: 10px;
+	position: relative;
+	overflow: hidden;
+	background: #e6e6e6;
+}
+
+.activity2 dd {
+	font-size: 0.8em;
+	line-height: 1.2em;
+	color: #666;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+
+.text_left {
+	float: left;
+	padding-right: 10px;
+}
+
+.text_left img {
+	float: left;
+	margin-left: 5px;
+}
+
+.text_left dl {
+	font-size: 0.8em;
+	line-height: 1.6em;
+	color: #000;
+	background: url(../img/anniu_grey_bj.png) repeat-x #fff;
+	position: relative;
+	overflow: hidden;
+	border: 1px solid #8c8c8c;
+	border-radius: 6px;
+	background-color: #fff;
+	box-shadow: 0 1px 2px #b8b8b8;
+	padding: 12px 15px 11px 10px;
+}
+
+.text_right {
+	float: right;
+}
+
+.text_right img {
+	float: left;
+	margin-left: 5px;
+}
+
+.text_right a {
+	color: #003ff3;
+	line-height: 1em;
+	border-bottom: 1px solid #003ff3;
+}
+
+.text_right dl {
+	font-size: 0.8em;
+	padding: 10px 5px;
+	line-height: 1.6em;
+	color: #000;
+	background: url(../img/anniu_grey_bj.png) repeat-x #fff;
+	position: relative;
+	overflow: hidden;
+	border: 1px solid #8c8c8c;
+	border-radius: 6px;
+	background-color: #fff;
+	box-shadow: 0 1px 2px #b8b8b8;
+}
+
+.text_grey_btn {
+	text-align: center;
+	margin: 12px 0;
+}
+
+.text_grey_btn dl {
+	font-size: 1.0em;
+	line-height: 1.4em;
+	color: #000;
+	background: url(../img/anniu_grey_bj.png) repeat-x #fff;
+	position: relative;
+	overflow: hidden;
+	border: 1px solid #8c8c8c;
+	border-radius: 6px;
+	background-color: #fff;
+	box-shadow: 0px 1px 2px #b8b8b8;
+}
+
+/*clear*/
+.clearfix p {
+	line-height: 1.4em;
+}
+
+.clearfix:after {
+	content: '.';
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+
+.sharp {
+	width: 8px;
+	height: 13px;
+	position: absolute;
+	top: 50%;
+	margin-top: -6px;
+	right: 10px;
+	background: url(../img/sharp.gif) no-repeat center center;
+	display: block;
+}
+
+.text_btn {
+	width: 34px;
+	height: 34px;
+	position: absolute;
+	top: 38%;
+	right: 300px;
+	background: url(../img/anniu_grey_btn.png) no-repeat center center;
+	display: block;
+	z-index: 5;
+}
+
+.text_btn2 {
+	width: 34px;
+	height: 34px;
+	position: relative;
+	top: -63px;
+	left: -270px;
+	float: left;
+	background: url(../img/anniu_grey_btn2.png) no-repeat left;
+	display: block;
+}
+
+.anniu_green_btn {
+	padding-top: 2px;
+}
+
+.anniu_green_btn img {
+	margin-right: 0.6em;
+}
+
+.left_btn {
+	float: left;
+	text-align: center;
+	margin-right: 6px;
+}
+
+.left_btn dl {
+	font-size: 1.2em;
+	padding: 10px 30px;
+	line-height: 1.4em;
+	color: #fff;
+	margin: 4px 0;
+	position: relative;
+	overflow: hidden;
+	border: 2px solid #d2d2d2;
+	border-radius: 6px;
+	background-color: #00bf43;
+	box-shadow: 0px 2px 0px #fff;
+}
+
+.right_btn {
+	float: left;
+	text-align: center;
+	margin-right: 6px;
+}
+
+.right_btn dl {
+	font-size: 1.2em;
+	padding: 10px 30px;
+	line-height: 1.4em;
+	color: #000;
+	margin: 4px 0;
+	position: relative;
+	overflow: hidden;
+	border: 2px solid #d2d2d2;
+	border-radius: 6px;
+	background-color: #fff;
+	box-shadow: 0px 2px 0px #fff;
+}
+
+.btn_box {
+	margin-top: 8px;
+}
+
+.option {
+	margin-top: 22px;
+	line-height: 3.2em;
+	position: relative;
+	overflow: hidden;
+	border: 2px solid #d2d2d2;
+	border-radius: 6px;
+	background-color: #fff;
+	box-shadow: 0px 2px 0px #fff;
+}
+
+.option dl {
+	margin-top: 22px;
+	line-height: 3.2em;
+	padding: 0 50px 12px 18px;
+	position: relative;
+	overflow: hidden;
+	border-bottom: 2px solid #d2d2d2;
+	background-color: #fff;
+	box-shadow: 0px 2px 0px #fff;
+}
+
+.option dt {
+	color: #000;
+	font-size: 1.55em;
+	float: left;
+}
+
+.option dd {
+	width: 52px;
+	height: 52px;
+	float: right;
+}
+
+.option_box {
+	margin-top: 12px;
+	line-height: 3.2em;
+	position: relative;
+	overflow: hidden;
+	border: 2px solid #d2d2d2;
+	border-bottom-width: 0;
+	border-radius: 6px;
+	background-color: #fff;
+	box-shadow: 0 2px 0 #fff;
+}
+
+.option2,.option3 {
+	padding: 12px 0 12px 12px;
+	position: relative;
+	overflow: hidden;
+	border-bottom: 2px solid #d2d2d2;
+	background-color: #fff;
+}
+
+.option2 dt {
+	color: #000;
+	font-size: 1.2em;
+	line-height: 1.4em;
+	float: left;
+}
+
+.option2 img {
+	margin-top: 4px;
+}
+
+.option3 img {
+	margin-top: 4px;
+}
+
+.option2 dd {
+	float: right;
+	font-size: 1.2em;
+	line-height: 1.4em;
+	color: #999;
+	font-weight: normal;
+	padding-right: 8px;
+}
+
+.pop {
+	line-height: 3.2em;
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	width: 90%;
+	overflow: hidden;
+	border-radius: 8px;
+	background-color: #f0f0f0;
+	box-shadow: 0px 4px 8px #000000;
+}
+
+.pop h1 {
+	font-weight: normal;
+	font-size: 1.3em;
+	line-height: 1.6em;
+	margin: 10px;
+}
+
+.pop dl {
+	margin: 12px;
+}
+
+.pop dt {
+	position: relative;
+	overflow: hidden;
+	border-radius: 8px;
+	background-color: #f0f0f0;
+	background-color: #fff;
+	padding: 16px 20px;
+	margin: 10px 0 20px 0;
+	font-size: 1.0em;
+	line-height: 1.4em;
+	color: #c8c8c8;
+}
+
+#bg {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	filter: Alpha(opacity = 8);
+	opacity: 0.8;
+	display: none;
+	background: url(../img/sharing.png) no-repeat #000 center 80px;
+}
+
+#popbox {
+	position: absolute;
+	display: none;
+}
+
+/* 字体样式 */
+a {
+	text-decoration: none;
+}
+
+.white {
+	font-size: 1.3em;
+	line-height: 1.3em;
+	color: #fff;
+}
+
+.black {
+	font-size: 1.3em;
+	line-height: 1.3em;
+	color: #000;
+}
+
+h2 {
+	color: #010101;
+}
+
+.act_til {
+	font-size: 0.8em;
+	line-height: 1em;
+	color: #656565;
+	padding-right: 9px;
+}
+
+.blue {
+	font-size: 0.8em;
+	line-height: 1em;
+	color: #003ff3;
+}
+
+.blue2 {
+	color: #003ff3;
+}
+
+.art {
+	margin-left: 5px;
+}
+/* 确认提示 */
+.right_btn2 {
+	text-align: center;
+}
+
+.right_btn2 dl {
+	font-size: 1.2em;
+	padding: 5px 10px;
+	line-height: 1.4em;
+	color: #000;
+	margin: 4px 0;
+	position: relative;
+	overflow: hidden;
+	border: 1px solid #d2d2d2;
+	border-radius: 6px;
+	background-color: #fff;
+	box-shadow: 0px 2px 0px #fff;
+}
+
+.pop_m {
+	line-height: 2.2em;
+	overflow: hidden;
+	border-radius: 8px;
+	background-color: #f0f0f0;
+	box-shadow: 0px 4px 8px #000000;
+	padding: 12px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	display: none;
+	z-index: 15;
+}
+
+.pop_t {
+	padding: 10xp;
+	line-height: 2.2em;
+	font-size: 1.0em;
+}
+
+.sendterm .clearfix {
+	padding: 0px;
+}
+
+.sendterm label,.pop label {
+	display: block;
+	position: relative;
+	margin: 5px 0;
+}
+
+.input_txt {
+	border: solid 0px #ccc;
+	text-indent: 10px;
+	width: 100%;
+	font-size: 16px;
+	height: 26px;
+}
+
+#tishi {
+	width: 200px;
+	height: 24px;
+	background: rgba(0, 0, 0, 1) none repeat scroll 0 0 !important;
+	position: fixed;
+	z-index: 200;
+	line-height: 24px;
+	text-align: center;
+	color: #fff;
+	display: none;
+}
+
+input {
+	padding-left: 10px;
+}
+
+.line {
+	border-bottom: 1px solid #D2D2D2;
+	width: 100%;
+}
+
+.sendterm dl,.left_btn dl,.right_btn dl,.option_box,.sendterm2 dl {
+	border: 1px solid #D2D2D2;
+}
+
+.option2,.option3 {
+	border: 0px;
+}
+
+.anniu_green dl {
+	border: 1px solid #00692D;
+}
+
+.anniu_grey dl {
+	border: 1px solid #000;
+}
+
+.text_right dl,.text_left dl,.text_grey_btn dl {
+	border: 1px solid #646464;
+}
+
+.clearfix .text_right,.clearfix .text_left {
+	width: 49%;
+	padding-right: 0px;
+}
+
+.text_right img {
+	height: 18px;
+}
+
+.text_right dl {
+	padding: 12px 15px 11px 10px;
+}
+
+#bg {
+	background-position: center 10px;
+	z-index: 1;
+}
+
+#ok {
+	display: none;
+	position: fixed;
+	z-index: 9999;
+	width: 180px;
+	padding: 36px 0 26px 0;
+	color: #ffffff;
+	font-size: 16px;
+	text-align: center;
+	border-radius: 6px;
+	top: 0px;
+	left: 0px;
+}
+
+#ok {
+	background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0 !important;
+}
+
+#ok img {
+	width: 119px;
+	height: 90px;
+	margin-bottom: 20px;
+}
+
+.pop h2 {
+	padding-left: 10px;
+}
+
+textarea {
+	font-size: 16px;
+}
+
+h1,.option2 dt {
+	word-wrap: break-word;
+	word-break: break-all;
+}

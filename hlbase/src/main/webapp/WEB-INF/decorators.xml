@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/decorators">
+	<!-- Any urls that are excluded will never be decorated by Sitemesh -->
+	<excludes>
+		<pattern>/service/*</pattern>
+		<pattern>*.js</pattern>
+		<pattern>*.css</pattern>
+		<pattern>*.jsp</pattern>
+		<pattern>/login*</pattern>
+		<pattern>*/ajax/*</pattern>
+		<pattern>/base/web*</pattern>
+		<pattern>/conn</pattern>
+	</excludes>
+	<decorator name="header" page="/WEB-INF/jsp/decorators/common.jsp">
+		<pattern>*</pattern>
+	</decorator>
+</decorators>

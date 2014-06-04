@@ -1,0 +1,16 @@
+<appInfo>
+	<!-- app_id -->
+	<id>dcf1f5e4-8289-4399-82e6-9aa5602bbc49</id>
+	<!-- 业务id -->
+	<busiId>busiId</busiId>
+	<!-- app名称 -->
+	<appName>app名称</appName>
+	<!-- 渠道号 1.androidLocal 2.iosLocal 3.androidmarket 4.appstore -->
+	<channelId>1</channelId>
+	<!-- 详情页是否显示评论按钮 0.显示 1.不显示 -->
+	<isShowComment>0</isShowComment>
+	<!-- 详情页是否显示收藏按钮 0.显示 1.不显示 -->
+	<isShowCollect>0</isShowCollect>
+	<!-- 详情页是否显示转发按钮 0.显示 1.不显示 -->
+	<isShowForward>0</isShowForward>
+</appInfo>

@@ -1,0 +1,101 @@
+@CHARSET "UTF-8";
+
+#vcard {
+	position: relative;
+	margin-top: 12px;
+	background-color: #dca648;
+	-webkit-box-shadow: 0 7px 10px -3px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 7px 10px -3px rgba(0, 0, 0, 0.5);
+}
+
+#vcard .bsc {
+	position: absolute;
+	top: -22px;
+	right: 0px;
+}
+
+#vcard .bsc .wz {
+	color: #4f4f4f;
+	font-size: 12px;
+	text-align: center;
+}
+
+#vcard .bsc .sz {
+	display: inline-block;
+	width: 50px;
+	background: url('../img/bsc.png') no-repeat;
+	background-size: 100%;
+	height: 50px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+}
+
+#vcard .top {
+	background-color: #fff;
+	padding-top: 10px;
+}
+
+#vcard .top .touxiang {
+	width: 90px;
+	height: 90px;
+	border-radius: 50px;
+	background: url("../img/tx.jpg") no-repeat;
+	background-size: 100%;
+	margin: 0px auto;
+}
+
+#vcard .top .xingming {
+	text-align: center;
+	margin: 10px 0px;
+}
+
+#vcard .top .job {
+	font-size: 12px;
+	color: #4f4f4f;
+}
+
+#vcard .top .job .gongsi {
+	display: inline-block;
+	width: 48%;
+	text-align: right;
+}
+
+#vcard .top .job .zhiwu {
+	border-left: 1px dashed #4f4f4f;
+	padding-left: 7px;
+	display: inline-block;
+	width: 48%;
+	text-align: left;
+}
+
+#vcard .top .tw {
+	background: #dca648 url("../img/tw.png") repeat-x 0px -17px;
+	height: 15px;
+	width: 100%;
+	margin-top: 10px;
+}
+
+#vcard .info {
+	color: #fff;
+	padding-left: 10px;
+	padding-bottom: 5px;
+}
+
+#vcard .info .phone,#vcard .info .mail,#vcard .info .address {
+	background: url("../img/tb.png") no-repeat 0px 1px;
+	padding-left: 25px;
+	font-size: 16px;
+	margin: 5px auto;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+
+#vcard .info .mail {
+	background-position: 0px -28px;
+}
+
+#vcard .info .address {
+	background-position: 0px -55px;
+}
