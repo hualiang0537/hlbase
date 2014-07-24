@@ -32,20 +32,25 @@
 	</properties>
 	<dependencies>
 		<dependency>
-            <groupId>com.github.httl</groupId>
-            <artifactId>httl</artifactId>
-            <version>${httl.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.github.httl</groupId>
-            <artifactId>httl-script</artifactId>
-            <version>${httl.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.github.httl</groupId>
-            <artifactId>httl-springmvc</artifactId>
-            <version>${httl.version}</version>
-        </dependency>
+			<groupId>commons-dbutils</groupId>
+			<artifactId>commons-dbutils</artifactId>
+			<version>1.6</version>
+		</dependency>
+		<dependency>
+			<groupId>com.github.httl</groupId>
+			<artifactId>httl</artifactId>
+			<version>${httl.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.github.httl</groupId>
+			<artifactId>httl-script</artifactId>
+			<version>${httl.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.github.httl</groupId>
+			<artifactId>httl-springmvc</artifactId>
+			<version>${httl.version}</version>
+		</dependency>
 		<dependency>
 			<groupId>comet4j-tomcat7</groupId>
 			<artifactId>comet4j-tomcat7</artifactId>
@@ -298,6 +303,7 @@
 		</dependency>
 	</dependencies>
 	<build>
+		<finalName>ROOT</finalName>
 		<plugins>
 
 		</plugins>
