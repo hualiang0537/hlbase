@@ -34,11 +34,8 @@ import org.springframework.web.servlet.ModelAndView;
  */
 @Controller
 public class BaseController {
-	/**
-	 * Logger for this class
-	 */
-	private static final Logger logger = LoggerFactory.getLogger(BaseController.class);
-	@Autowired
+    private static final Logger logger = LoggerFactory.getLogger(BaseController.class);
+    @Autowired
 	private RedisTemplate<String, String> redisTemplate;
 	@Resource(name = "redisTemplate")
 	private ValueOperations<String, String> valueOpts;
@@ -83,7 +80,8 @@ public class BaseController {
 		CommJson json = new CommJson();
 		json.setMsg("msg");
 		mv.addObject(json);
-		return mv;
+        logger.info(":::::json");
+        return mv;
 	}
 
 }
